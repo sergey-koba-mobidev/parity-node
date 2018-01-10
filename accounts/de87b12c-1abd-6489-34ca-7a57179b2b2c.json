@@ -1,0 +1,22 @@
+{
+    "address": "00b758e5bdc33bb320210fdd707048197581a120",
+    "crypto": {
+        "cipher": "aes-128-ctr",
+        "cipherparams": {
+            "iv": "804a8685706c9d4c73d06c8f1510acbc"
+        },
+        "ciphertext": "f963094790d27c048c801c50240597ad1a6c359c3ade5a00470b8284821904fa",
+        "kdf": "pbkdf2",
+        "kdfparams": {
+            "c": 10240,
+            "dklen": 32,
+            "prf": "hmac-sha256",
+            "salt": "7ca17f9de8fc69547eabbdd1c3f7e31621211b4a61e6185f6489785d52519672"
+        },
+        "mac": "4bda7e976a153c5665c085d7e6cf12f48fe9e55e699350d880732217d63bfb3d"
+    },
+    "id": "de87b12c-1abd-6489-34ca-7a57179b2b2c",
+    "meta": "{\"description\":\"\",\"passwordHint\":\"MobiDev\",\"timestamp\":1515511520432}",
+    "name": "MobiDev",
+    "version": 3
+}

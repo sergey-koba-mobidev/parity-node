@@ -1,0 +1,12 @@
+version: "3"
+services:
+  eth:
+    image: parity/parity:stable-release
+    ports:
+      - "8545:8545"
+      - "8180:8180"
+      - "8546:8546"
+      - "30303:30303"
+    volumes:
+      - "~/.local/share/io.parity.ethereum/docker/:/root/.local/share/io.parity.ethereum/"
+    command: --chain testnet --base-path /root/.local/share/io.parity.ethereum/ --unsafe-expose
